@@ -36,7 +36,7 @@ A flag `--listen` define a porta UDP local. O programa pergunta:
 Durante o jogo, os tabuleiros aparecem lado a lado:
 
 ```
-   A B C D E F G H I J        A B C D E F G H I J
+   A B C D E F G H I J       A B C D E F G H I J
  1 . . . . . . . . . .     1 . . . . . . . . . .
  2 . . S . . . . . . .     2 . . . . . . X . . .
 ...
@@ -72,10 +72,4 @@ go run ./cmd --listen :9000
 go run ./cmd --listen :9001
 # escolher: C
 # IP:porta do oponente: 127.0.0.1:9000
-```
-
-## Testes unitários
-
-```sh
-go test ./...
 ```
